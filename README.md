@@ -10,3 +10,5 @@ training-model-piper se refere ao processo de treinar um modelo de voz para o Pi
 º Ajuste fino (fine-tuning): Em vez de começar do zero, muitas vezes se usa um modelo pré-treinado e o refina com o novo conjunto de dados. Isso acelera o processo e permite obter resultados de alta qualidade com menos dados.
 
 º Exportação do modelo: Após o treinamento, o modelo é exportado para um formato como o ONNX, que pode ser integrado a outras aplicações e usado para gerar fala com a nova voz. 
+
+1º Instale as bibliotecas necessárias. Abra o terminal e execute: pip install pydub joblib whisper-timestamped torch speechrecognition
